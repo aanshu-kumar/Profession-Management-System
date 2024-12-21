@@ -5,6 +5,8 @@ let id=1;
 
 function addUser()
 {
+    document.querySelector("#success-msg").style.display="none";
+    document.querySelector('#error-msg').style.display="none";
     let employeesContainer = document.querySelector(".employees-container");
     let name= document.querySelector("#name").value;
     let profession= document.querySelector("#profession").value;
